@@ -2,7 +2,12 @@ class AmazonPage {
 
     get pageTitle () {
 
-        return $ ("//a[@id='nav-logo-sprites']");
+        return $ ('#nav-logo-sprites');
+    }
+    get pageSubTitle () {
+
+        return $ ('span.a-size-base.a-color-base')
+
     }
 
 
