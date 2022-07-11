@@ -6,6 +6,7 @@ describe ("Verify amazon page", function () {
         await browser.url("https://www.amazon.com/");
         console.log(homePage.pageTitle.getText());
         console.log(homePage.pageSubTitle.getText());
+        homePage.departmentSearch.click();
         await browser.pause(6000);
        
     });
