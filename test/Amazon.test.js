@@ -1,7 +1,7 @@
 const homePage = require ("../pages/Amazon.page")
 describe ("Verify amazon page", function () {
 
-    it("Verify title of the page",  async function (){
+    it("Interacting with amazon page web elements",  async function (){
 
         await browser.url("https://www.amazon.com/");
         console.log(homePage.pageTitle.getText());

@@ -9,6 +9,11 @@ class AmazonPage {
         return $ ('span.a-size-base.a-color-base')
 
     }
+    get departmentSearch () {
+
+       return  $ ("//select[@id='searchDropdownBox']")
+        
+    }
 
 
 }
